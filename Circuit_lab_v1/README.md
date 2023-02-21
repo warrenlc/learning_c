@@ -24,4 +24,15 @@ I did NOT miss error-handling. I have alwyas been of the opinion
 that manual error-checking is to be preferred--You really need to
 know what you are doing vs simply try/catch etc. 
 
+** Interesting: 
 
+I ran $ wc -w * in this folder and got: 1631 words total for all 
+files for this lab, redone in C.
+
+Doing the same in the same folder for C++:
+    5307 !!!!!
+So it's not my imagination that it felt like I had far less
+to write despite not having access to "reusable code" by taking
+advantage of containers (to loop over) or inheritance...
+
+:-)
