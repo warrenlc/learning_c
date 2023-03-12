@@ -79,7 +79,7 @@ void Unsorted_List_double_add_back(Unsorted_List_double **list, double val);
 void Unsorted_List_double_print(Unsorted_List_double *list);
 void Unsorted_List_double_remove_head(Unsorted_List_double **list);
 size_t Unsorted_List_double_length(const Unsorted_List_double *list);
-const double* Unsorted_List_double_value_at(const Unsorted_List_double **list, size_t index);
+const double* Unsorted_List_double_value_at(const Unsorted_List_double *list, size_t index);
 int Unsorted_List_double_insert_at(Unsorted_List_double **list, size_t index, double val);
 int Unsorted_List_double_remove_at(Unsorted_List_double **list, size_t index);
 void Unsorted_List_double_remove_back(Unsorted_List_double **list);
