@@ -1,15 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct tree tree;
-
-typedef enum { fuck, shit} token;
-struct tree {
-    token value;
-    tree *left;
-    tree *right;
-};
-
+#include "tree.h"
 
 
 int main(int argc, char *argv[]) {
