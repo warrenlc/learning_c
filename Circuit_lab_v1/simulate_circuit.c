@@ -7,7 +7,7 @@ void
 run_simulation_1(int run_iter, int print_iter, double time_interval, double battery_charge)
 {
 /*
- * Dynamically allocate space for our connection pointers
+ * Dynamically allocate memory for our connection pointers
  * */
 
     Connection* p    = malloc(sizeof(double));
