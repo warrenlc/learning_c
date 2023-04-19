@@ -32,7 +32,7 @@ struct Node {
  * */
 typedef struct tree tree;
 
-typedef enum { fuck, shit} token;
+typedef enum { joe, steve }token;
 struct tree {
     token value;
     tree *left;
